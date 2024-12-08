@@ -8,6 +8,7 @@ var texture = pickaxe.get_resource("Item Texture") as Texture2D
 ```
 A better solution is to define a custom `Item` type like so (it **must** extend `PandoraEntity`):
 ```gdscript
+@tool
 class_name Item extends PandoraEntity
 
 
